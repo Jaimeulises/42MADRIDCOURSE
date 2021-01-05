@@ -6,7 +6,7 @@
 /*   By: jafernan <jafernan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/05 13:22:41 by jafernan          #+#    #+#             */
-/*   Updated: 2021/01/05 16:51:36 by jafernan         ###   ########.fr       */
+/*   Updated: 2021/01/05 19:19:27 by jafernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,10 @@ int ft_printf(const char *format,...)
 		if (*string == '%')
 		{
 			string++;
-			
+			if(*string == '.' || *string == 0 || *string == '*' || (*string >= 48 && *string <= 57))
+			{
+				
+			}
 		}
 		ft_putbnr(&string);
 		string++;
