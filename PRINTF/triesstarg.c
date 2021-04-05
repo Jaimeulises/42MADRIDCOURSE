@@ -6,7 +6,7 @@
 /*   By: jafernan <jafernan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/03 19:40:30 by jafernan          #+#    #+#             */
-/*   Updated: 2021/02/03 19:42:15 by jafernan         ###   ########.fr       */
+/*   Updated: 2021/04/05 11:10:09 by jafernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,12 @@
 */
 // C PROGRAMMING IN LINUX TUTOTRIAL #078 - VA_START(),....
 
-int suma(int suma,va_arg(argptr,...))
+/*int suma(int suma,va_arg(argptr,...))
 {
 	
 }
 
-
+*/
 
 
 
