@@ -4,13 +4,13 @@ LIBFT = libft/libft.a
 
 SRCS = 	ft_printf.c 				\
 		src/ft_printf_utils.c		\
-
+		src/ft_print_char.c		\
 
 OBJS = $(SRCS:.c=.o)
 
 CC = gcc
 
-CFLAGS = -c -Wall -Wextra -Werror
+CFLAGS = -c# -Wall -Wextra -Werror
 
 all: $(NAME)
 
