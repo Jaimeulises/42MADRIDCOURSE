@@ -6,7 +6,7 @@
 /*   By: jafernan <jafernan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/05 11:24:48 by jafernan          #+#    #+#             */
-/*   Updated: 2021/04/07 20:06:36 by jafernan         ###   ########.fr       */
+/*   Updated: 2021/05/02 16:29:46 by jafernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,11 +33,13 @@
 
 		n = 0;
 		if (a == 'c')
-		n = print_char(argptr, flags_t);
+		n = print_char(va_arg(argptr, int), flags_t);
 	/*else if (a == 'd' || a == 'i')
 		n = print_int(va_arg(argptr, int), flags_t);
+		*/
 	else if (a == 's')
 		n = print_string(va_arg(argptr, char *), flags_t);
+		/*
 	else if (a == 'x')
 		n = print_hex(va_arg(argptr, unsigned int), 0, flags_t);
 	else if (a == 'X')
